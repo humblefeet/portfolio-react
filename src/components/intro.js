@@ -1,13 +1,9 @@
 import React from 'react'
 import '../styles/intro.css'
-// import Portrait from '../images/portrait.jpg'
-import Helmet from 'react-helmet'
 
 const Intro = props =>(
     <div className="intro">
-        <Helmet>
-            <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet"/>
-        </Helmet>
+
         <div className="bigIntro big">
             <h1>
                 Hello, I'm Matthieu Bourgois <br/> a Front-End Developer based in Seattle, WA.
