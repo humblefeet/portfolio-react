@@ -1,0 +1,28 @@
+.mainResume{
+    margin: auto;
+    background-image:  url('../images/wood.jpg');
+    width: 100vw;
+}
+.mainResume>h1{
+    text-align: center;
+    color: white;
+}
+.resume{
+    border: black 2px solid;
+    border-radius: 5px;
+    box-shadow: 2px 4px grey;
+    width: 80%;
+    margin: 0 auto;
+    clear: both;
+}
+.button{
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 1px 2px grey;
+    float: left;
+}
+
+.main>h1{
+    margin: 0;
+    font-family: 'Catamaran', sans-serif
+}

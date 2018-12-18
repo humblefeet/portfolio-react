@@ -1,0 +1,108 @@
+.welcomePage{
+    height: 100vh;
+    /* background-image: url('../images/wood.jpg'); */
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+
+}
+.welcomeMessage{
+    text-align: center;
+    height: 100vh;
+    margin: 20% auto;
+    max-width: 25%;
+    padding: auto;
+}
+.designName{
+    width: 85%;
+    margin: 0 auto;
+    padding: 5em auto;
+}
+.swing{
+    font-size: 8em;
+    letter-spacing: .5em;
+    margin: 0 auto;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 500;
+    color: rgb(225, 237, 252);
+}
+@-webkit-keyframes swing 
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.swing:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.link{
+    margin: 2em;
+    text-decoration: none;
+    color: black
+}
+.link:visited{
+    color: black
+}

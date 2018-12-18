@@ -1,0 +1,10 @@
+.main{
+    width: 90%;
+    clear: 100%;
+}
+
+.background{
+    background-image: url('../images/wood.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
