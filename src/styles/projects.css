@@ -2,7 +2,10 @@
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-    grid-template-areas: ". . . ." ". whatch word ." ". rain hike ." ". . . .";
+    grid-template-areas:    ". . . ." 
+                            ". whatch word ." 
+                            ". rain hike ." 
+                            ". . . .";
 }
 
 .projects{
@@ -37,19 +40,19 @@
 }
 
 .whatch{
-    grid-area: whatch;
+    grid-area: "whatch";
 }
 
 .rain{
-    grid-area: rain;
+    grid-area: "rain";
     height: 40vh;
     width: 100%;
 }
 
 .hike{
-    grid-area: hike;
+    grid-area: "hike";
 }
 
 .word{
-    grid-area: word;
+    grid-area: "word";
 }
