@@ -1,27 +1,22 @@
-import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types'
+// import {  Router,Link } from 'react-router-dom'
 import React from 'react'
-import '../styles/Header.css'
+import '../styles/header.css'
+
 
 const Header = ({ siteTitle }) => (
   <div className="main">
 
-    <div className="inner">
+    {/* <div className="inner">
+      <Router>
         <Link to="/" >
           <h1 className="title big">
             Matthieu Bourgois
           </h1>
         </Link>
-    </div>
+      </Router>
+    </div> */}
   </div>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: '',
-}
 
 export default Header

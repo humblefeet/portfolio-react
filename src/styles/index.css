@@ -8,3 +8,24 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.inner{
+    height: 5vh;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100vw;
+    background-color: white;
+}
+
+.inner>a{
+    text-decoration: none;
+}
+
+.title{
+    text-shadow: 2px 2px rgb(191, 30, 255);
+    color: #fff6cd;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Catamaran', sans-serif;
+
+}
