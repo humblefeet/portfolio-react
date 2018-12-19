@@ -36,17 +36,18 @@
 }
 
 .rain{
+
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.hike{
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 
 }
 
-.hike{
+.word{
     grid-column: 1;
     grid-row: 2 / 2;
-}
-
-.word{
-    grid-column: 2/2;
-    grid-row: 2/2;
 }
