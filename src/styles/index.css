@@ -4,13 +4,29 @@
 }
 
 .background{
-    background-image: url('../images/wood.jpg');
+    background-image: url('../images/pipe.jpg');
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+
 }
 
+/* .background::before {
+    background-image: url('../images/wood.jpg');
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.4;
+    } */
+
 .inner{
-    height: 5vh;
+    height: 50px;
     margin: 0 auto;
     padding: 1rem;
     width: 100vw;

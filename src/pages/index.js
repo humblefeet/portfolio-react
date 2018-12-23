@@ -5,23 +5,23 @@ import Projects from '../components/projects'
 import Welcome from '../components/welcome'
 import Contact from '../components/contact'
 // import Header from '../components/header'
-import {Router, Switch, Route} from 'react-router-dom'
+import {Router, Switch, Route, Link} from 'react-router-dom'
 import Resume from '../pages/resume'
 
 const IndexPage = () => (
   <div>
-    <div className="background">
+    <div>
       <nav className="inner">
         <h1 className="title big">
             Matthieu Bourgois
           </h1>
+        <Link to='/resume'>Resume</Link>
       </nav>
       <Welcome/>
       <Intro/>
       <Projects/>
+      <Contact/>
     </div>
-
-    <Contact/>
 
     <Router>
       <div>
